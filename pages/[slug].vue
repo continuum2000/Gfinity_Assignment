@@ -12,7 +12,7 @@ onMounted(() => {
 <template id="background">
     <div v-if="cardData" class="mx-auto bg-black max-w-screen-lg h-full pt-[66px]">
         <div
-            class="mx-6 bg-gradient-to-b from-[#0F0F0F] via-[#161616] via-[52%] to-[#0D0D0D] rounded-[12px] lg:flex space-x-[10px]">
+            class="mx-6 bg-gradient-to-b from-[#0F0F0F] via-[#161616] via-[52%] to-[#0D0D0D] rounded-[12px] lg:flex lg:space-x-[10px]">
             <img class="w-[182px] h-[258px] lg:mr-[54px] lg:ml-[15px] mx-auto mb-[23px] lg:pb-0"
                 :src="cardData.cardImage.url" />
             <!-- 
@@ -36,7 +36,7 @@ onMounted(() => {
             </div>
             
             -->
-            <div class="flex justify-center space-x-[10px]">
+            <div class="flex justify-center lg:space-x-[10px]">
                 <div class="w-[100px] py-[10px]">
                     <div class="border-t border-b border-white py-[6px]">
                         <div class="flex justify-between font-bold text-[14px]">
@@ -120,7 +120,7 @@ onMounted(() => {
 
 
             </div>
-            <div class="flex justify-center space-x-[10px]">
+            <div class="flex justify-center lg:space-x-[10px]">
                 <div class="w-[100px] py-[10px]">
                     <div class="border-t border-b border-white py-[6px]">
                         <div class="flex justify-between font-bold text-[14px]">

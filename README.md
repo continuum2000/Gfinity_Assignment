@@ -8,6 +8,8 @@
 - I would have prefered to use the payload SDK but I would have needed the payload-types file. I created a sudo payload-types just for type safety by using a json to types converter and fed it a record from the fifaCards api.
 - I tried to come back and add things to this readme every now and then but otherwise I might have some comments here and there also. Most comments are on
   how I handled sorting
+- I'm more familiar with the nuxt/ui module for making ui elements. However I imagine the idea was to try do everything without adding modules to do everything for me so I chose to not add it.
+- I did however have to add a module for the unit/e2e tests. I have no experience creating them so I am not really sure if what I included was what was expected but I believe I made them successfully.
 
 # Thought process
 

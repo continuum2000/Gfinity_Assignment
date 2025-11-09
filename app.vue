@@ -1,6 +1,4 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <Navigation />
+  <NuxtPage id="page" class="min-h-screen" />
 </template>
